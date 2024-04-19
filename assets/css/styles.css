@@ -11,23 +11,29 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+
 }
 
 .formas {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
 }
 
-.forma {
+ .forma {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     margin: 20px;
+    width: 100vw;
 }
 
 .forma img {
-    width: auto;
-    height: 400px;
+    width: 400px;
+    height: auto;
 }
 
 .forma button {
