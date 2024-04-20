@@ -41,3 +41,18 @@ function calcularAreaPoligonoRegular() {
     const area = (lados * lado * apotema) / 2;
     document.getElementById('resultado').innerText = `A área do Polígono Regular é ${area.toFixed(2)}`;
 }
+
+function calcularAreaRomboedro() {
+    const diagonalMaior = parseFloat(document.getElementById('diagonalMaior').value);
+    const diagonalMenor = parseFloat(document.getElementById('diagonalMenor').value);
+    const area = (diagonalMaior * diagonalMenor) / 2;
+    document.getElementById('resultado').innerText = `A área do Romboedro é ${area.toFixed(2)}`;
+}
+
+function calcularAreaTrapezoideIrregular() {
+    const baseMaior = parseFloat(document.getElementById('baseMaior').value);
+    const baseMenor = parseFloat(document.getElementById('baseMenor').value);
+    const altura = parseFloat(document.getElementById('altura').value);
+    const area = ((baseMaior + baseMenor) * altura) / 2;
+    document.getElementById('resultado').innerText = `A área do Trapezóide Irregular é ${area.toFixed(2)}`;
+}
