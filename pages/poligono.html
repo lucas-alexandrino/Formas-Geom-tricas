@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Círculo</title>
     <link rel="stylesheet" href="../assets/css/formas.css">
 </head>
+
 <body>
     <header>
         <button onclick="location.pathname='../index.html'">Inicio</a> </button>
         <h1>Polígono Regular com N Lados</h1>
-        <p>Um polígono regular com N lados é uma figura geométrica plana com N lados e N ângulos congruentes, onde todos os lados têm o mesmo comprimento e todos os ângulos internos têm a mesma medida.</p>
+        <p>Um polígono regular com N lados é uma figura geométrica plana com N lados e N ângulos congruentes, onde todos
+            os lados têm o mesmo comprimento e todos os ângulos internos têm a mesma medida.</p>
     </header>
     <main>
         <div class="container">
-        <div class="calculator">
-            <h2>Calculadora de Área do Círculo</h2>
-            <label for="lados">Lados do Polígono:</label>
-            <input type="number" id="lados" placeholder="Digite o lados do poligono">
-            <label for="lado">Lado do Polígono:</label>
-            <input type="number" id="lado" placeholder="Digite o lado do polígono">
-            <label for="apotema">Apotema do Polígono:</label>
-            <input type="number" id="apotema" placeholder="Digite o apotema do polígono">
-            <button onclick="calcularAreaPoligonoRegular()">Calcular Área</button>
-            <p id="resultado"></p>
+            <div class="calculator">
+                <h2>Calculadora de Área do Círculo</h2>
+                <label for="lados">Lados do Polígono:</label>
+                <input type="number" id="lados" placeholder="Digite o lados do poligono">
+                <label for="lado">Lado do Polígono:</label>
+                <input type="number" id="lado" placeholder="Digite o lado do polígono">
+                <label for="apotema">Apotema do Polígono:</label>
+                <input type="number" id="apotema" placeholder="Digite o apotema do polígono">
+                <button onclick="calcularAreaPoligonoRegular()">Calcular Área</button>
+                <p id="resultado"></p>
+            </div>
         </div>
-    </div>
     </main>
 
     <script src="../assets/js/script.js"></script>
 </body>
+
 </html>
