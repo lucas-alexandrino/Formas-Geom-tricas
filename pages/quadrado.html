@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <button><a href="../index.html">Inicio</a> </button>
+        <button onclick="location.pathname='../index.html'">Inicio</a> </button>
         <h1>Quadrado</h1>
         <p>Um quadrado é um polígono de quatro lados congruentes, com todos os ângulos internos retos e todos os lados
             de igual comprimento.</p>
@@ -19,7 +19,7 @@
         <div class="container">
             <div class="calculator">
                 <h2>Calculadora de Área do Quadrado</h2>
-                <label for="lado">Raio do Quadrado:</label>
+                <label for="lado">Lado do Quadrado:</label>
                 <input type="number" id="lado" placeholder="Digite o lado do Quadrado">
                 <button onclick="calcularAreaQuadrado()">Calcular Área</button>
                 <p id="resultado"></p>

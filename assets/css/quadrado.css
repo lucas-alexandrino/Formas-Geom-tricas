@@ -3,9 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #b3b0b0;
-    /* Cor de fundo escura */
     color: #fff;
-    /* Cor do texto */
 }
 
 h1 {
@@ -14,7 +12,6 @@ h1 {
 
 header {
     background-color: #cc8b00;
-    /*  #333;*/
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -26,10 +23,7 @@ header button {
     padding: 5px;
     display: flex;
     align-items: left;
-}
-
-header a {
-    text-decoration: none;
+    color: white;
 }
 
 header p {
@@ -52,12 +46,10 @@ header p {
 
 .calculator {
     background-color: #444;
-    /* Cor de fundo escura para a calculadora */
     padding: 50px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-    /* Sombra vermelha */
 }
 
 .calculator h2 {
@@ -78,7 +70,6 @@ header p {
 
 .calculator button {
     background-color: #ff0000;
-    /* Cor vermelha para o botão */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -89,7 +80,6 @@ header p {
 
 .calculator button:hover {
     background-color: #cc0000;
-    /* Cor vermelha mais escura no hover */
 }
 
 #resultado {
