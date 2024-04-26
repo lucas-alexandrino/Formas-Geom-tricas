@@ -49,3 +49,11 @@ header {
 .forma button:hover {
     background-color: #0056b3;
 }
+
+#icones {
+    width:200px;
+}
+#icone_romboedro {
+    width: 200px;
+    height: 200px;
+}
